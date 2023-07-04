@@ -1,6 +1,6 @@
 # DeliveryPoint
 
-## Injected React into my application
+### Injected React into my application
 
 **Using CDN links from React official page**
 
@@ -17,20 +17,20 @@
   4. **createElement** method is used to create a HTML element in React.
   5. **createRoot** is used to create root element from ReactDOM
 
-## Added CSS file and attributes to an empty object
+### Added CSS file and attributes to an empty object
 
 - Added **id** attribute in createElement
 - Just linked the index.css in HTML file
 - Logged the React Element : this will end up with an **Javascript Object**
 - Provided attributes in {}, will became any props
 
-## root.render function
+### root.render function
 
 - this render function will take the object(react element) and create the browser undestandable HTML code and puts it into root element. Finally DOM gets updated and displayed on browser.
 
 - We can create complex html tree also using React.createElement itself - we can put them as children in third parameter. If we have siblings then we put them in an array.
 
-## Library and Framework
+### Library and Framework
 
 - React is a **Javascript Library** not a full fleged framework.
 - React can be used in any small portion of the existing application as well.
@@ -39,9 +39,9 @@
 
 - Normally **Framework** will enfore to use provided feature from it.
 
-## Configuring NPM (Package Manager) and Installed Bundler Parcel
+### Configuring NPM (Package Manager) and Installed Bundler - Parcel
 
-- **_NPM_** does not stand for Node Package Manager
+- **_NPM_** does not stands for Node Package Manager
 - It just manages all the packages/libraries which we can install required packages into our application.
 - npm init - this will ask few questions and creates package.json file.
 - package.json is configuration file for NPM
@@ -61,7 +61,7 @@
   - this will be used to track the exact version of the packages and transitive dependencies information. - node_modules will have all the required packages code and that is why it huge in size.
   - If we have package.json and package-lock.json - we can re-create the node_modules. -
 
-## Other information
+### Other information
 
 - Used **Emmet** to get the boiler plate code.
   **CDN** - Content Delivery Network
