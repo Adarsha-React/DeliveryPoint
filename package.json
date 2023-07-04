@@ -1,0 +1,22 @@
+{
+  "name": "deliverypoint",
+  "version": "1.0.0",
+  "description": "This is a food delivery app developed by Adarsha",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adarsha-React/DeliveryPoint.git"
+  },
+  "author": "Adarsha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adarsha-React/DeliveryPoint/issues"
+  },
+  "homepage": "https://github.com/Adarsha-React/DeliveryPoint#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}

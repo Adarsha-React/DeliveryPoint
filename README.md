@@ -11,6 +11,7 @@
   3. React will run only inside the below **root** element
 
   - <span> (<div id="root"> </div>) </span>
+    ![Alt text](image.png)
 
   4. **createElement** method is used to create a HTML element in React.
   5. **createRoot** is used to create root element from ReactDOM
