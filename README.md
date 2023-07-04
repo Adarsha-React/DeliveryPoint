@@ -1,5 +1,7 @@
 # DeliveryPoint
 
+---
+
 ### Injected React into my application
 
 ---
@@ -8,16 +10,16 @@
 
 - There are two CDN links
 
-  1. React - "react.development.js" - This javascript file will have core program of React. This can be used in React-Native also.
-  2. ReactDOM - "react-dom.development.js" - This javascript file will have logic for rendering. Connection between browser and React.
-  3. React will run only inside the below **root** element
+  - React - "react.development.js" - This javascript file will have core program of React. This can be used in React-Native also.
+  - ReactDOM - "react-dom.development.js" - This javascript file will have logic for rendering. Connection between browser and React.
+  - React will run only inside the below **root** element
 
-     ```ruby
-     <div id="root">Not Rendered</div>
-     ```
+    ```ruby
+    <div id="root">Not Rendered</div>
+    ```
 
-  4. **createElement** method is used to create a HTML element in React.
-  5. **createRoot** is used to create root element from ReactDOM
+  - **createElement** method is used to create a HTML element in React.
+  - **createRoot** is used to create root element from ReactDOM
 
 ### Added CSS file and attributes to an empty object
 
