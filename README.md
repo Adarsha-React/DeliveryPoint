@@ -2,6 +2,8 @@
 
 ### Injected React into my application
 
+---
+
 **Using CDN links from React official page**
 
 - There are two CDN links
