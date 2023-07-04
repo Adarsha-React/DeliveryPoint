@@ -10,8 +10,9 @@
   2. ReactDOM - "react-dom.development.js" - This javascript file will have logic for rendering. Connection between browser and React.
   3. React will run only inside the below **root** element
 
-  - <span> (<div id="root"> </div>) </span>
-    ![Alt text](image.png)
+     ```ruby
+     <div id="root">Not Rendered</div>
+     ```
 
   4. **createElement** method is used to create a HTML element in React.
   5. **createRoot** is used to create root element from ReactDOM
@@ -27,8 +28,6 @@
 
 - this render function will take the object(react element) and create the browser undestandable HTML code and puts it into root element. Finally DOM gets updated and displayed on browser.
 
--
-
 - We can create complex html tree also using React.createElement itself - we can put them as children in third parameter. If we have siblings then we put them in an array.
 
 ## Library and Framework
@@ -39,6 +38,28 @@
 - React library is very is to get into application just by importing React and ReactDOM.
 
 - Normally **Framework** will enfore to use provided feature from it.
+
+## Configuring NPM (Package Manager) and Installed Bundler Parcel
+
+- **_NPM_** does not stand for Node Package Manager
+- It just manages all the packages/libraries which we can install required packages into our application.
+- npm init - this will ask few questions and creates package.json file.
+- package.json is configuration file for NPM
+- After this, we can install/get any packages/dependencies to our project.
+  - There are two dependencies
+    1. Normal Dependency - these are required on production as well
+    2. Dev Dependency - these dependencies only required during development phase
+  - This can be done using: npm install -D parcel
+  - If we need dev dependency to our project, we need to speciy "-D" or "--save-dev" while installing the package.
+  - When we install the first dependency, it will get added to package.json under dev dependcy ("-D") else it will added under Dependecies
+  - Example. "parcel": "^2.9.3" or "parcel": "~2.9.3" or "parcel": "2.9.3"
+  - "~" symbol is used to upgrade the patches automatically
+  - "^" symbol is used to upgrade the Minor and patches automatically
+  - If we need exact version then no need to specify any symbol.
+  - If we need to upgrade Major version, then we have to do it manually.
+  - Also, package-lock.json file will be created
+  - this will be used to track the exact version of the packages and transitive dependencies information. - node_modules will have all the required packages code and that is why it huge in size.
+  - If we have package.json and package-lock.json - we can re-create the node_modules. -
 
 ## Other information
 
