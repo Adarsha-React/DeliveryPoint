@@ -2,7 +2,7 @@
 
 ### Injected React into my application
 
-**Using CDN links from React official page**
+#### Using CDN links from React official page
 
 - There are two CDN links
 - React - "react.development.js" - This javascript file will have core program of React. This can be used in React-Native also.
@@ -23,7 +23,7 @@
 - Logged the React Element : this will end up with an **Javascript Object**
 - Provided attributes in {}, will became any props
 
-### root.render function
+#### root.render function
 
 - this render function will take the object(react element) and create the browser undestandable HTML code and puts it into root element. Finally DOM gets updated and displayed on browser.
 
