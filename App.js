@@ -1,17 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const parent = React.createElement("div", { id: "parent" }, [
-  React.createElement("div", { id: "child" }, [
-    React.createElement("h1", { id: "1" }, "I'm an h1 Tag"),
-    React.createElement("h2", { id: "2" }, "I'm an h2 Tag"),
-  ]),
-  React.createElement("div", { id: "child2" }, [
-    React.createElement("h1", { id: "3" }, "I'm an h1 Tag"),
-    React.createElement("h2", { id: "4" }, "I'm an h2 Tag"),
-  ]),
-]);
+const Title = () => {
+  return <h1>Title</h1>;
+};
 
-console.log(parent);
+//Component Composition - Writing Title component inside Header component
+const Header = () => {
+  return (
+    <div>
+      <Title />
+      <h1 id="header">Header from functional component</h1>
+    </div>
+  );
+};
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(parent);
+root.render(<Header />);

@@ -65,8 +65,8 @@
 
 - Parcel is one of the Bundler like Webpack, Vite
 - Almost all bundler will do the similar jobs like
-  1.  Development Build
-  2.  Create Local host
+  1.  Create a development build
+  2.  Host it on Local host (localhost:1234)
   3.  HMR - Hot Module Replacement
       - When we save on editor, automatically refresh the page on browser to reflect the changes.
   4.  File watcher algorithm (written in C++)

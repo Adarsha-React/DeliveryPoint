@@ -4,6 +4,8 @@
   "description": "This is a food delivery app developed by Adarsha",
   "main": "App.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
