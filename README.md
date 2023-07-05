@@ -59,6 +59,25 @@
   - Also, package-lock.json file will be created
   - this will be used to track the exact version of the packages and transitive dependencies information. - node_modules will have all the required packages code and that is why it huge in size.
   - If we have package.json and package-lock.json - we can re-create the node_modules. -
+  - Put all file names into .gitignore which can be re-generated and not to push to github.
+
+### Bundler - Parcel
+
+- Parcel is one of the Bundler like Webpack, Vite
+- Almost all bundler will do the similar jobs like
+  1.  Development Build
+  2.  Create Local host
+  3.  HMR - Hot Module Replacement
+      - When we save on editor, automatically refresh the page on browser to reflect the changes.
+  4.  File watcher algorithm (written in C++)
+  5.  Image optimization
+  6.  Bundling all files
+  7.  Code splitting/chunking and Lazy loading
+  8.  Minification - reducing the vairable/fuction names
+  9.  Compressing the whole code to have less bundler size
+  10. Tree shaking - remove the unwanted/unused code while build
+  11. Separte Build for Dev and Production
+      - Production build will take more time
 
 ### Other information
 
