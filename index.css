@@ -44,7 +44,7 @@
 }
 .restaurant-card {
     width: 170px;
-    height: 200px;
+    height: 225px;
     padding: 10px;
     border: 1px solid black;
     cursor: pointer;
@@ -57,7 +57,12 @@
     height: 100px;
 }
 .card-details {
-    line-height: 0%;
+    line-height: .18cm;
+    font-size: 12px;
+
+}
+.cuisines {
+    font-size: 8px;
 }
 
 .footer {
