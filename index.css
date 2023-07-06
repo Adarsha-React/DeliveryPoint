@@ -38,13 +38,19 @@
 
 .restaurant-container {
     margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 .restaurant-card {
     width: 170px;
     height: 200px;
     padding: 10px;
     border: 1px solid black;
+    cursor: pointer;
+    margin: 10px;
 }
+
 
 .restaurant-image {
     width: 100%;
