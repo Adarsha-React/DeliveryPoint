@@ -1,3 +1,5 @@
+import RestaurantCard from "./RestaurantCard";
+
 const Body = () => {
   return (
     <div className="body">
@@ -5,7 +7,9 @@ const Body = () => {
         <input type="text" placeholder="Search" />
         <button className="search-btn">Search</button>
       </div>
-      <div className="restaurant-container"></div>
+      <div className="restaurant-container">
+        <RestaurantCard />
+      </div>
     </div>
   );
 };

@@ -12,10 +12,14 @@
 .nav-items > ul {
     display: flex;
     list-style-type: none;
+    font-family: monospace;
+    font-size: medium;
+    font: 200;
 }
 
 .nav-items > ul > li {
     padding: 10px 20px;
+    cursor: pointer;
 }
 
 .body {
@@ -30,6 +34,22 @@
 .search-btn {
     margin-left: 10px;
 
+}
+
+.restaurant-container {
+    margin-top: 20px;
+}
+.restaurant-card {
+    width: 170px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px 10px;
+    border: 1px solid black;
+}
+
+.restaurant-image {
+    width: 170px;
+    height: 100px;
 }
 
 .footer {
