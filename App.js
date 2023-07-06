@@ -1,19 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import Header from "./components/Header";
+import Body from "./components/Body";
+import Footer from "./components/Footer";
 
-const Title = () => {
-  return <h1>Title</h1>;
-};
-
-//Component Composition - Writing Title component inside Header component
-const Header = () => {
+const AppLayout = () => {
   return (
-    <div>
-      <Title />
-      <h1 id="header">Header from functional component</h1>
+    <div className="app">
+      <Header />
+      <Body />
+      <Footer />
     </div>
   );
 };
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Header />);
+root.render(<AppLayout />);
