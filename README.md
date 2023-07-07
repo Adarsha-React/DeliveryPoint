@@ -79,6 +79,23 @@
   11. Separte Build for Dev and Production
       - Production build will take more time
 
+### DOM, Virtual DOM, Reconciliation, Diffing Algorithm
+
+- DOM: Document Object Model
+
+  - DOM is the representation of HTML elements in tree format.
+
+- Virtual DOM
+
+  - Virtual DOM is representation of the actual DOM in memory
+  - Also, it is a javascript object with all node information.
+
+- Reconciliation and Diffing algorithm
+  - Directly updating actual DOM is very expensive task.
+  - Actual DOM updates will happens very quickly with the help of virtual DOMS.
+  - React uses Reconciliation process which in tern uses the diffing algorithm to find the difference between two virtual DOM (old and new virtual DOMS) and update the actual DOM with new changes only.
+  -
+
 ### Other information
 
 - Used **Emmet** to get the boiler plate code.

@@ -5,7 +5,6 @@ import { useState } from "react";
 const Body = () => {
   const [listOfRestaurants, setListOfRestaurants] = useState(restaurantList);
 
-  console.log(<Body />);
   return (
     <div className="body">
       <div className="filter-container">
